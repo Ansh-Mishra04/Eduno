@@ -3696,19 +3696,7 @@ export const subjectResources: Record<string, SubjectResources> = {
    adc: {
     notes: {
       rgpv: [
-        {
-          id: "adc-notes-eduno-0",
-          title: "Short Revision Notes (Must Refer)",
-          contributor: "Eduno Team",
-          subjectCode: "IT-404",
-          subjectName: "Analog & Digital Communication",
-          department: "Information Technology",
-          semester: 4,
-          fileType: "PDF",
-          pdfUrl:
-            "",
-          isExclusive: true,
-        },
+        
         {
           id: "adc-notes-rgpv-1",
           title: "Unit 1 - ADC",
