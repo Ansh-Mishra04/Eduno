@@ -631,6 +631,7 @@ export const subjectResources: Record<string, SubjectResources> = {
     ],
   },
   // Other subjects with empty arrays
+  // 3rd Semester Subjects
   ep: {
     notes: {
       rgpv: [
@@ -3134,7 +3135,8 @@ export const subjectResources: Record<string, SubjectResources> = {
       },
     ],
   },
-    m3: {
+   // 4rd Semester Subjects
+  m3: {
       notes: {
         rgpv: [
           {
@@ -3276,8 +3278,107 @@ export const subjectResources: Record<string, SubjectResources> = {
         ]
       },
       pyq: {
-        yearWise: [],
-        unitWise: []
+        yearWise: [
+           {
+          id: "m3-pyq-2024-12",
+          title: "M3 PYQ Dec 24",
+          year: "DEC-24",
+          subjectCode: "BT-301",
+          subjectName: "Mathematics-III",
+          department: "Basic Science",
+          semester: 4,
+          fileType: "PDF",
+          pdfUrl:
+            "https://drive.google.com/file/d/1iGQ3UQlwuBvVDJiQBC2D8UsBAa-dBssd/view?usp=drive_link",
+        },
+        {
+           id: "m3-pyq-2020-6",
+          title: "M3 PYQ Jun 20",
+          year: "JUN-20",
+          subjectCode: "BT-301",
+          subjectName: "Mathematics-III",
+          department: "Basic Science",
+          semester: 4,
+          fileType: "PDF",
+          pdfUrl:
+            "https://drive.google.com/file/d/1ETP__sJBXYDGWRJVzvDVvcmgZ0HIQ9wa/view?usp=drive_link",
+        },
+        {
+           id: "m3-pyq-2024-6",
+          title: "M3 PYQ Jun 22",
+          year: "JUN-22",
+          subjectCode: "BT-301",
+          subjectName: "Mathematics-III",
+          department: "Basic Science",
+          semester: 4,
+          fileType: "PDF",
+          pdfUrl:
+            "https://drive.google.com/file/d/1TTy5PLkGoYArlG0DWMOc81reUO7GW0T3/view?usp=drive_link",
+        },
+        ],
+        unitWise: [
+           {
+          id: "m3-pyq-unit-1",
+          title: "M3 Unit 1 PYQ - Eduno",
+          unit: 1,
+          subjectCode: "BT-301",
+          subjectName: "Mathematics-II",
+          department: "Basic Science",
+          semester: 4,
+          fileType: "PDF",
+          pdfUrl:
+            "https://drive.google.com/file/d/1bLTaYf0FNA6LoRnaAbBKRR8GnQoO0XvB/view?usp=drive_link",
+        },
+        {
+           id: "m3-pyq-unit-2",
+          title: "M3 Unit 2 PYQ - Eduno",
+          unit: 2,
+          subjectCode: "BT-301",
+          subjectName: "Mathematics-II",
+          department: "Basic Science",
+          semester: 4,
+          fileType: "PDF",
+          pdfUrl:
+            "https://drive.google.com/file/d/1ygC4oZqJye67ggKdWkjRCuu6eFr1WPiS/view?usp=drive_link",
+        },
+        {
+           id: "m3-pyq-unit-3",
+          title: "M3 Unit 3 PYQ - Eduno",
+          unit: 3,
+          subjectCode: "BT-301",
+          subjectName: "Mathematics-II",
+          department: "Basic Science",
+          semester: 4,
+          fileType: "PDF",
+          pdfUrl:
+            "https://drive.google.com/file/d/1l359InLZ3PKjYOPgLt7CmzcdQdgQE2W7/view?usp=drive_link",
+        },
+        {
+           id: "m3-pyq-unit-4",
+          title: "M3 Unit 4 PYQ - Eduno",
+          unit: 4,
+          subjectCode: "BT-301",
+          subjectName: "Mathematics-II",
+          department: "Basic Science",
+          semester: 4,
+          fileType: "PDF",
+          pdfUrl:
+            "https://drive.google.com/file/d/1NU5_o0kpoztycrHXPC_1D3fL8rByh0lA/view?usp=drive_link",
+        },
+        {
+           id: "m3-pyq-unit-5",
+          title: "M3 Unit 5 PYQ - Eduno",
+          unit: 5,
+          subjectCode: "BT-301",
+          subjectName: "Mathematics-II",
+          department: "Basic Science",
+          semester: 4,
+          fileType: "PDF",
+          pdfUrl:
+            "https://drive.google.com/file/d/1geQ6VE9G8_rMJMmIquhqPd3V0GYgd9o6/view?usp=drive_link",
+        },
+
+        ]
       },
       content: [
         {
@@ -3407,7 +3508,7 @@ export const subjectResources: Record<string, SubjectResources> = {
         }
       ]
     },
-      coa: {
+  coa: {
         notes: {
           rgpv:[],
           college: [
@@ -3591,8 +3692,438 @@ export const subjectResources: Record<string, SubjectResources> = {
             ]
           }
         ]
-      }
-    
-  
-  
+      },
+   adc: {
+    notes: {
+      rgpv: [
+        {
+          id: "adc-notes-eduno-0",
+          title: "Short Revision Notes (Must Refer)",
+          contributor: "Eduno Team",
+          subjectCode: "IT-404",
+          subjectName: "Analog & Digital Communication",
+          department: "Information Technology",
+          semester: 4,
+          fileType: "PDF",
+          pdfUrl:
+            "",
+          isExclusive: true,
+        },
+        {
+          id: "adc-notes-rgpv-1",
+          title: "Unit 1 - ADC",
+          contributor: "RGPV Notes",
+          subjectCode: "IT-404",
+          subjectName: "Analog & Digital Communication",
+          department: "Information Technology",
+          semester: 4,
+          fileType: "PDF",
+          pdfUrl:
+            "https://drive.google.com/file/d/15JdkCGPMZnyF6USsnwdKRhxfO-V1AGPB/view?usp=drive_link",
+        },
+        {
+          id: "adc-notes-rgpv-2",
+          title: "Unit 2 - ADC",
+          contributor: "RGPV Notes",
+          subjectCode: "IT-404",
+          subjectName: "Analog & Digital Communication",
+          department: "Information Technology",
+          semester: 4,
+          fileType: "PDF",
+          pdfUrl:
+            "https://drive.google.com/file/d/1G4J-4d1LwnaM1tmulp5tZFShx2pAiADi/view?usp=drive_link",
+        },
+        {
+          id: "adc-notes-rgpv-3",
+          title: "Unit 3 - ADC",
+          contributor: "RGPV Notes",
+          subjectCode: "IT-404",
+          subjectName: "Analog & Digital Communication",
+          department: "Information Technology",
+          semester: 4,
+          fileType: "PDF",
+          pdfUrl:
+            "https://drive.google.com/file/d/1Z4e5sqc_5lKd9TZhU1lH13i6ITtv9npq/view?usp=drive_link",
+        },
+        {
+           id: "adc-notes-rgpv-4",
+          title: "Unit 4 - ADC",
+          contributor: "RGPV Notes",
+          subjectCode: "IT-404",
+          subjectName: "Analog & Digital Communication",
+          department: "Information Technology",
+          semester: 4,
+          fileType: "PDF",
+          pdfUrl:
+            "https://drive.google.com/file/d/1jFRfZJEtVh9NIBeQBwixGm1UBjDEiKab/view?usp=drive_link",
+        },
+        {
+          id: "adc-notes-rgpv-5",
+          title: "Unit 5 - ADC",
+          contributor: "RGPV Notes",
+          subjectCode: "IT-404",
+          subjectName: "Analog & Digital Communication",
+          department: "Information Technology",
+          semester: 4,
+          fileType: "PDF",
+          pdfUrl:
+            "https://drive.google.com/file/d/1k3GTifGF7qJpSMDa87MTdRTUJW9HlBpK/view?usp=drive_link",
+        },
+      ],
+      college: [
+        {
+           id: "adc-notes-eduno-1",
+            title: "Unit 1 - Signals and Systems",
+            contributor: "Eduno Team",
+            subjectCode: "IT-404",
+            subjectName: "Analog & Digital Communication",
+            department: "Information Technology",
+            semester: 4,
+            fileType: "PDF",
+            pdfUrl: "https://drive.google.com/file/d/1p-O7PDMQ2QpiVFgbKd950cYaB6l_8rO2/view?usp=drive_link",
+        },
+        {
+           id: "adc-notes-eduno-2",
+            title: "Unit 2 - Amplitude modulation",
+            contributor: "Eduno Team",
+            subjectCode: "IT-404",
+            subjectName: "Analog & Digital Communication",
+            department: "Information Technology",
+            semester: 4,
+            fileType: "PDF",
+            pdfUrl: "https://drive.google.com/file/d/1BZMO6KRyCYBENZMMIjlXgoRgO9luNtGe/view?usp=drive_link",
+        },
+        {
+          id: "adc-notes-eduno-3",
+            title: "Unit 3 - Angle modulation",
+            contributor: "Eduno Team",
+            subjectCode: "IT-404",
+            subjectName: "Analog & Digital Communication",
+            department: "Information Technology",
+            semester: 4,
+            fileType: "PDF",
+            pdfUrl: "https://drive.google.com/file/d/1RrVY4yJyHNI4gw2M6AP-l59TBC0fzcdj/view?usp=drive_link",
+        },
+        {
+           id: "adc-notes-eduno-4",
+            title: "Unit 4 ",
+            contributor: "Eduno Team",
+            subjectCode: "IT-404",
+            subjectName: "Analog & Digital Communication",
+            department: "Information Technology",
+            semester: 4,
+            fileType: "PDF",
+            pdfUrl: "https://drive.google.com/file/d/1JpV2kfuv5u_4o_UxWD3aR2rykJIG_6Xi/view?usp=drive_link",
+        },
+        {
+          id: "adc-notes-eduno-5",
+            title: "Unit 5",
+            contributor: "Eduno Team",
+            subjectCode: "IT-404",
+            subjectName: "Analog & Digital Communication",
+            department: "Information Technology",
+            semester: 4,
+            fileType: "PDF",
+            pdfUrl: "https://drive.google.com/file/d/111hKE9LfswADT_OhkNCZJ7G56ME_bcD6/view?usp=drive_link",
+        },
+      ],
+    },
+    pyq: {
+      yearWise: [
+        {
+          id: "m2-pyq-2024-1",
+          title: "M2 PYQ June 24",
+          year: "June 24",
+          subjectCode: "BT 202",
+          subjectName: "Mathematics-II",
+          department: "Basic Science",
+          semester: 2,
+          fileType: "PDF",
+          pdfUrl:
+            "https://drive.google.com/file/d/13ko8Lq0s3btbKAV2-hQMtI0taxu_1rNj/view?usp=drive_link",
+        },
+        {
+          id: "m2-pyq-2023-2",
+          title: "M2 PYQ Dec 23",
+          year: "Dec 23",
+          subjectCode: "BT 202",
+          subjectName: "Mathematics-II",
+          department: "Basic Science",
+          semester: 2,
+          fileType: "PDF",
+          pdfUrl:
+            "https://drive.google.com/file/d/1z48pU3OMlJjTxd6jSQETQ22dWLELaVod/view?usp=drive_link",
+        },
+        {
+          id: "m2-pyq-2023-1",
+          title: "M2 PYQ June 23",
+          year: "June 23",
+          subjectCode: "BT 202",
+          subjectName: "Mathematics-II",
+          department: "Basic Science",
+          semester: 2,
+          fileType: "PDF",
+          pdfUrl:
+            "https://drive.google.com/file/d/1e3fiJ-QOFfzkbim_8KC5F_JIwtfq0q5A/view?usp=drive_link",
+        },
+      ],
+      unitWise: [
+        {
+          id: "m2-pyq-unit-1",
+          title: "M2 Unit 1 PYQ - Eduno",
+          unit: 1,
+          subjectCode: "BT 202",
+          subjectName: "Mathematics-II",
+          department: "Basic Science",
+          semester: 2,
+          fileType: "PDF",
+          pdfUrl:
+            "https://drive.google.com/file/d/1D9Fw8iIiVIT05dIyDRkW4Eo-w7y3RJTW/view?usp=drive_link",
+        },
+        {
+          id: "m2-pyq-unit-2",
+          title: "M2 Unit 2 PYQ - Eduno",
+          unit: 2,
+          subjectCode: "BT 202",
+          subjectName: "Mathematics-II",
+          department: "Basic Science",
+          semester: 2,
+          fileType: "PDF",
+          pdfUrl:
+            "https://drive.google.com/file/d/1pXALjwKtThuWOwY9J0vQT61dAfMkeeWb/view?usp=drive_link",
+        },
+        {
+          id: "m2-pyq-unit-3",
+          title: "M2 Unit 3 PYQ - Eduno",
+          unit: 3,
+          subjectCode: "BT 202",
+          subjectName: "Mathematics-II",
+          department: "Basic Science",
+          semester: 2,
+          fileType: "PDF",
+          pdfUrl:
+            "https://drive.google.com/file/d/1v-PfJlOwEpzHwDKqjgF6-spjuZ7YVAvN/view?usp=drive_link",
+        },
+        {
+          id: "m2-pyq-unit-4",
+          title: "M2 Unit 4 PYQ - Eduno",
+          unit: 4,
+          subjectCode: "BT 202",
+          subjectName: "Mathematics-II",
+          department: "Basic Science",
+          semester: 2,
+          fileType: "PDF",
+          pdfUrl:
+            "https://drive.google.com/file/d/1tsDsijB-XMYAiyxOv8WY1dyja9vjNtw7/view?usp=drive_link",
+        },
+        {
+          id: "m2-pyq-unit-5",
+          title: "M2 Unit 5 PYQ - Eduno",
+          unit: 5,
+          subjectCode: "BT 202",
+          subjectName: "Mathematics-II",
+          department: "Basic Science",
+          semester: 2,
+          fileType: "PDF",
+          pdfUrl:
+            "https://drive.google.com/file/d/13ks7bap9_YEENPd71lLknNyEX67ARnoa/view?usp=drive_link",
+        },
+      ],
+    },
+    content: [
+      {
+        id: "adc-content-1",
+        title: "Engineering Made Easy (Playlist)",
+        type: "Video Content",
+        uploadedBy: "Engineering Made Easy",
+        uploadedOn: "2025-07-12",
+        subjectCode: "IT-404",
+        subjectName: "Analog & Digital Communication",
+        department: "Information Technology",
+        semester: 2,
+        fileType: "Video",
+        videoUrl:
+          "https://youtube.com/playlist?list=PLDp9Jik5WjRs5ismlsqP_Q3JNlWOe-2an&si=NMlTBtBtCWTg1moE",
+      },
+      {
+        id: "adc-content-2",
+        title: "Engineering Funda (Playlist)",
+        type: "Video Content",
+        uploadedBy: "Engineering Funda",
+        uploadedOn: "2025-07-12",
+        subjectCode: "IT-404",
+        subjectName: "Analog & Digital Communication",
+        department: "Information Technology",
+        semester: 2,
+        fileType: "Video",
+        videoUrl:
+          "https://youtube.com/playlist?list=PLgwJf8NK-2e5R8EVN7tqosjkHttF727iJ&si=AjnGEu3zYanbbnvH",
+      },
+    ],
+    important: [
+      // {
+      //   unit: 0,
+      //   title: "IMP of ADC",
+      //   topics: [
+      //     "Exact Method",
+      //     "Bessel Functions",
+      //     "Variation of Parameters",
+      //     "Linear PDEs",
+      //     "Line Integral",
+      //     "Gauss Divergence Theorem",
+      //     "Green's Theorem",
+      //   ],
+      //   questions: ["Just Do All PYQs"],
+      // },
+      // {
+      //   unit: 1,
+      //   title: "Ordinary Differential Equations I",
+      //   topics: [
+      //     "Leibnitz Linear & Exact Method (Ordinary Differential Equations of First Order and First Degree)",
+      //     "Ordinary Differential Equations of First Order and Higher Degree",
+      //     "Higher Order Differential Equations with Constant Coefficients",
+      //   ],
+      //   questions: [
+      //     "(x e^(xy) + 2y) dy/dx + y e^(xy) = 0 → Exact Method",
+      //     "Solve (1 + y²)dx = (tan⁻¹y - x)dy using Leibnitz linear method",
+      //     "Solve: dy/dx = cos(x + y) + sin(x + y)",
+      //     "Solve: (e^y + 1)cosx dx + e^y sinx dy = 0",
+      //     " Solve: d²y/dx² + dy/dx = (1 + e^x)⁻¹",
+      //   ],
+      // },
+      // {
+      //   unit: 2,
+      //   title: "Ordinary Differential Equations II",
+      //   topics: [
+      //     "Bessel Functions of the First Kind and Their Properties",
+      //     "Variation of Parameters",
+      //   ],
+      //   questions: [
+      //     "J1/2(x)=2xsinx (Bessel Function)",
+      //     "(D^2+9)y=tan3x (Variation of Parameters)",
+      //   ],
+      // },
+      // {
+      //   unit: 3,
+      //   title: "Partial Differential Equations",
+      //   topics: [
+      //     "Linear PDEs",
+      //     "Homogeneous Linear PDEs (Constant Coefficients)",
+      //     "Charpit's Method",
+      //   ],
+      //   questions: [
+      //     "(x−y)p+(x+y)q=2xz (Linear PDE)",
+      //     "D^2−DD′−6D′^2)Z=xy (Linear PDE)",
+      //     "(D^2 +4DD′−5D′^2)Z=sin(2x+3y) (Homogeneous Linear PDE)",
+      //     "(p^2+q^2)y=qz (charpit's Method)",
+      //   ],
+      // },
+      // {
+      //   unit: 4,
+      //   title: "Functions of Complex Variables",
+      //   topics: [
+      //     "Harmonic functions",
+      //     "Analytic functions",
+      //     "Line Integral",
+      //     "Singularity & Residues",
+      //   ],
+      //   questions: ["Check PYQs for Questions (Can't show up equations here)"],
+      // },
+      // {
+      //   unit: 5,
+      //   title: "Vector Calculus",
+      //   topics: [
+      //     "Green's Theorem",
+      //     "Directional Derivative",
+      //     "Curl & Laplacian Operator",
+      //     "Gauss Divergence Theorem",
+      //   ],
+      //   questions: [
+      //     "Check PYQs for Questions (Can't show up equations here)",
+      //     "Verify Green's theorem in the plane forC(x^2-xy^3)dx+(y^2-2xy)dy where C is a square with vertices (0, 0), (2, 0), (2, 2), (0, 2)",
+      //     "Find the directional derivative of f(x,y,z)=e2x cos yz at (0, 0, 0) in the direction of the tangent to the curve x=asint, y = acost, z = at at t =4",
+      //   ],
+      // },
+    ],
+   syllabus : [
+  {
+    unit: 1,
+    title: "Signals and Systems",
+    topics: [
+      "Block diagram of a communication system",
+      "Signal-definition and types: continuous, discrete, deterministic, non-deterministic, periodic, non-periodic, energy, power, analog and digital signals",
+      "Electromagnetic Spectra",
+      "Standard signals: DC, sinusoidal, unit step, ramp, signum, rectangular pulse, impulse (delta) signal",
+      "System definition and classification: linear, nonlinear, time variant, time invariant, causal, non-causal, stable and unstable systems",
+      "Fourier Transforms: time domain and frequency domain representation of signal",
+      "Properties of Fourier Transform and conditions for existence",
+      "Fourier Transform of gate, unit step, constant, impulse, sine and cosine wave",
+      "Shifting property of delta function",
+      "Convolution and time and frequency convolution theorems",
+    ],
+  },
+  {
+    unit: 2,
+    title: "Amplitude Modulation",
+    topics: [
+      "Modulation: need and types of modulation techniques",
+      "Amplitude modulation (DSB-FC), modulation index",
+      "Frequency spectrum of AM wave, linear and over modulation",
+      "Power relation and transmission efficiency in AM",
+      "Modulation by complex signal and bandwidth of AM",
+      "AM modulators: square law and switching modulator",
+      "Advantages and disadvantages of AM",
+      "Demodulation of AM: square law and envelope detector",
+      "Suppressed carrier AM systems: DSB-SC, SSB-SC, VSB-SC and comparison",
+      "Synchronous detection of AM",
+      "Low and high power AM transmitters",
+      "AM receivers: TRF and superheterodyne receivers",
+      "Receiver parameters: sensitivity, selectivity and fidelity",
+    ],
+  },
+  {
+    unit: 3,
+    title: "Angle Modulation",
+    topics: [
+      "Introduction and types of angle modulation",
+      "Frequency modulation: frequency deviation, modulation index, deviation ratio",
+      "Bandwidth requirement and types of FM",
+      "Phase modulation and difference between FM and PM",
+      "Direct and indirect methods of FM generation",
+      "FM demodulators: slope detector, Foster-Seeley discriminator, ratio detector",
+      "Introduction to pulse modulation systems",
+    ],
+  },
+  {
+    unit: 4,
+    title: "Pulse Modulation and PCM",
+    topics: [
+      "Sampling of signal and sampling theorem for low pass and band pass signals",
+      "Pulse amplitude modulation (PAM), Time Division Multiplexing (TDM)",
+      "Channel bandwidth for PAM-TDM signal",
+      "Types of sampling: instantaneous, natural, flat top and aperture effect",
+      "Introduction to pulse position and pulse duration modulations",
+      "Digital signal, quantization and quantization error",
+      "Pulse Code Modulation (PCM), signal-to-noise ratio, companding",
+      "Data rate, Baud rate, Bit rate",
+      "Multiplexed PCM signal",
+      "Differential PCM (DPCM), Delta Modulation (DM), Adaptive Delta Modulation (ADM)",
+      "Comparison of various modulation systems",
+    ],
+  },
+  {
+    unit: 5,
+    title: "Digital Modulation Techniques",
+    topics: [
+      "Amplitude Shift Keying (ASK): generation, detection, equation, bandwidth",
+      "Binary Phase Shift Keying (BPSK)",
+      "Differential Phase Shift Keying (DPSK)",
+      "Quadrature Phase Shift Keying (QPSK): offset and non-offset",
+      "M-ary PSK",
+      "Binary Frequency Shift Keying (BFSK), M-ary FSK",
+      "Quadrature Amplitude Modulation (QAM)",
+        ],
+      },
+    ]
+  }
 };
