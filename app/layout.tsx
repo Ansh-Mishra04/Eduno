@@ -10,7 +10,12 @@ import Loading from '@/components/loading';
 import { Analytics } from '@vercel/analytics/next';
 import { SpeedInsights } from "@vercel/speed-insights/next"
 
-const inter = Inter({ subsets: ['latin'] });
+const inter = Inter({
+  subsets: ['latin'],
+  display: 'swap', // important to prevent blocking
+  fallback: ['system-ui', 'sans-serif'], // local fallback
+  preload: false, // disables automatic preload to avoid fetch failure
+});
 
 export const metadata: Metadata = {
   title: 'Eduno - Your Academic Resource Hub',
