@@ -3449,7 +3449,113 @@ export const subjectResources: Record<string, SubjectResources> = {
           videoUrl:"https://youtube.com/playlist?list=PLhSp9OSVmeyLB62_-fT9VNbjRkDEzJzzp&si=Vv41H6xPc7v5v1ng"
         }
       ],
-      important: [],
+     "important": [
+    {
+      "unit": 0,
+      "title": "IMP of M3",
+      "topics": [
+        "Newton-Raphson Method",
+        "Runge-Kutta Method",
+        "Simpson's 1/3 and 3/8 Rule",
+        "Gauss-Seidel Method",
+        "Poisson & Binomial Distribution",
+        "Laplace Transform and Inverse",
+        "Newton's Interpolation"
+      ],
+      "questions": ["Just Do All PYQs"]
+    },
+    {
+      "unit": 1,
+      "title": "Numerical Methods: Roots & Interpolation",
+      "topics": [
+        "Newton-Raphson Method and convergence",
+        "Interpolation using Newton's Forward/Backward",
+      ],
+      "questions": [
+        "Using Newton-Raphson method, find the root of x⁴ - x - 10 = 0",
+        "Use Newton-Raphson method to find the root of x·log₁₀x = 1.2 (correct to 3/4/5 decimal places)",
+        "Show that Newton-Raphson method is quadratically convergent",
+        "Use Newton’s formula to interpolate and estimate f(x) at a given point",
+        "Test analyticity of f(z) = 2xy + i(x² − y²)"
+      ]
+    },
+    {
+      "unit": 2,
+      "title": "Numerical Integration & Linear Systems",
+      "topics": [
+        "Simpson's 1/3 Rule",
+        "Simpson's 3/8 Rule",
+        "Gauss-Seidel Method",
+        "Gauss Elimination",
+        "Fourier Series"
+      ],
+      "questions": [
+        "Evaluate ∫[0 to 1] dx / (1 + x) using Simpson’s 1/3 and 3/8 rule",
+        "Evaluate ∫log x·cos x dx using Trapezoidal and Simpson's rules",
+        "Apply Simpson's 3/8 rule to ∫√x dx from 1.0 to 1.3",
+        "Solve system using Gauss-Seidel method",
+        "Solve the system using Gauss Elimination: 3x + y − z = 3 , 2x − 8y + z = −5 , x − 2y + 9z = 8",
+        "Find Fourier series of f(t) = {sint, 0<t≤π ; 0, π<t≤2π}"
+      ]
+    },
+    {
+      "unit": 3,
+      "title": "Differential Equations & Interpolation Methods",
+      "topics": [
+        "Runge-Kutta Method",
+        "Euler’s Method",
+        "Milne’s Method",
+        "Newton's Interpolation"
+      ],
+      "questions": [
+        "Use Taylor's method to find y(0.1) for dy/dx = x²y−1, y(0) = 1",
+        "Use Runge-Kutta method (RK-4) to solve dy/dx = x + y with y(0) = 1",
+        "Using Euler’s method, find y(2.2) for dy/dx = −xy² with y(2) = 1",
+        "Use Milne’s method to solve dy/dx = x + y from x = 0.2 to x = 0.3",
+        "Find dy/dx at x = 1.5 from given table of f(x)",
+        "Use Newton’s forward interpolation to estimate f(1.25) from given table",
+        "Use Newton’s forward interpolation to find polynomial through given points"
+      ]
+    },
+    {
+      "unit": 4,
+      "title": "Laplace & Fourier Transforms",
+      "topics": [
+        "Laplace Transform",
+        "Inverse Laplace Transform",
+        "Fourier Sine Transform",
+        "Finite Difference Identities (Δ^n sin)"
+      ],
+      "questions": [
+        "Find the Laplace transform of a piecewise function involving sin(t)",
+        "Find inverse Laplace of 1 / [p³(p² + a²)]",
+        "Solve DE using Laplace: −d³y/dt³ + 2d²y/dt² − dy/dt − 2y = 0 with given ICs",
+        "Evaluate ∫ from 0 to 10 of e^(−t) · sin(t) dt",
+        "Find Fourier sine transform of 1/x",
+        "Prove: Δ^n sin(ax+b) = {2sin(ah/2)}^n . Sin[ax+b+n((ah+π)/2)]"
+      ]
+    },
+    {
+      "unit": 5,
+      "title": "Probability and Statistics",
+      "topics": [
+        "Poisson Distribution (Mean, Variance, Fitting)",
+        "Binomial Distribution",
+        "Normal Distribution (PDF, Mean, Std Dev, Quartiles)",
+        "Probability Theorems involving combinations"
+      ],
+      "questions": [
+        "Find mean and variance of Poisson distribution",
+        "Fit a Poisson distribution to given frequency data",
+        "Calculate mean and standard deviation of a Binomial Distribution",
+        "Find probability of two heads in 4 tosses / at least two heads",
+        "Let X and Y be independent normal variables. Define Z = X − Y, and find PDF, median, std dev, and P(Z+1≤0)",
+        "Prove Quartile Deviation : Mean Deviation : Standard Deviation = 10:12:15",
+        "If m balls are distributed among a men and b women, show that P(number received by men is odd) = ½[(a+b)^m − (b−a)^m / (a+b)^m]",
+        "Prove that Δ^n.O^n+1 = [n(n+1)/2]Δ^n.O^n"
+      ]
+    }
+  ],
       syllabus: [
         {
           unit: 1,
