@@ -573,7 +573,7 @@ export const subjectResources: Record<string, SubjectResources> = {
         unit: 1,
         title: "Ordinary Differential Equations I",
         topics: [
-          "Differential Equations of First Order and First Degree (Leibnitz linear, Bernoulli’s, Exact)",
+          "Differential Equations of First Order and First Degree (Leibnitz linear, Bernoulli's, Exact)",
           "Differential Equations of First Order and Higher Degree",
           "Higher order differential equations with constant coefficients",
           "Homogeneous Linear Differential equations",
@@ -963,10 +963,10 @@ export const subjectResources: Record<string, SubjectResources> = {
         unit: 2,
         title: "Wave Optics",
         topics: [
-          "Huygens’ principle",
+          "Huygens' principle",
           "Superposition of waves and interference of light by wave front splitting and amplitude splitting",
-          "Young’s double slit experiment",
-          "Newton’s rings",
+          "Young's double slit experiment",
+          "Newton's rings",
           "Michelson interferometer",
           "Mach-Zehnder interferometer",
           "Fraunhofer diffraction from a single slit and a circular aperture",
@@ -981,7 +981,7 @@ export const subjectResources: Record<string, SubjectResources> = {
           "Free electron theory of metals",
           "Fermi level of Intrinsic and extrinsic semiconductors",
           "Density of states",
-          "Bloch’s theorem for particles in a periodic potential",
+          "Bloch's theorem for particles in a periodic potential",
           "Kronig-Penney model (no derivation) and origin of energy bands",
           "V-I characteristics of PN junction",
           "Zener diode",
@@ -993,7 +993,7 @@ export const subjectResources: Record<string, SubjectResources> = {
         unit: 4,
         title: "Lasers",
         topics: [
-          "Einstein’s theory of matter radiation interaction and A and B coefficients",
+          "Einstein's theory of matter radiation interaction and A and B coefficients",
           "Amplification of light by population inversion",
           "Different types of lasers: gas lasers (He-Ne, CO2), solid-state lasers (ruby, Neodymium)",
           "Properties of laser beams: monochromaticity, coherence, directionality and brightness",
@@ -1011,10 +1011,10 @@ export const subjectResources: Record<string, SubjectResources> = {
           "Electric displacement",
           "Basic Introduction to Dielectrics",
           "Gradient, Divergence and curl",
-          "Stokes’ theorem",
+          "Stokes' theorem",
           "Gauss Theorem",
           "Continuity equation for current densities",
-          "Maxwell’s equation in vacuum and non-conducting medium",
+          "Maxwell's equation in vacuum and non-conducting medium",
           "Poynting vector",
         ],
       },
@@ -3475,7 +3475,7 @@ export const subjectResources: Record<string, SubjectResources> = {
         "Using Newton-Raphson method, find the root of x⁴ - x - 10 = 0",
         "Use Newton-Raphson method to find the root of x·log₁₀x = 1.2 (correct to 3/4/5 decimal places)",
         "Show that Newton-Raphson method is quadratically convergent",
-        "Use Newton’s formula to interpolate and estimate f(x) at a given point",
+        "Use Newton's formula to interpolate and estimate f(x) at a given point",
         "Test analyticity of f(z) = 2xy + i(x² − y²)"
       ]
     },
@@ -3490,7 +3490,7 @@ export const subjectResources: Record<string, SubjectResources> = {
         "Fourier Series"
       ],
       "questions": [
-        "Evaluate ∫[0 to 1] dx / (1 + x) using Simpson’s 1/3 and 3/8 rule",
+        "Evaluate ∫[0 to 1] dx / (1 + x) using Simpson's 1/3 and 3/8 rule",
         "Evaluate ∫log x·cos x dx using Trapezoidal and Simpson's rules",
         "Apply Simpson's 3/8 rule to ∫√x dx from 1.0 to 1.3",
         "Solve system using Gauss-Seidel method",
@@ -3503,18 +3503,18 @@ export const subjectResources: Record<string, SubjectResources> = {
       "title": "Differential Equations & Interpolation Methods",
       "topics": [
         "Runge-Kutta Method",
-        "Euler’s Method",
-        "Milne’s Method",
+        "Euler's Method",
+        "Milne's Method",
         "Newton's Interpolation"
       ],
       "questions": [
         "Use Taylor's method to find y(0.1) for dy/dx = x²y−1, y(0) = 1",
         "Use Runge-Kutta method (RK-4) to solve dy/dx = x + y with y(0) = 1",
-        "Using Euler’s method, find y(2.2) for dy/dx = −xy² with y(2) = 1",
-        "Use Milne’s method to solve dy/dx = x + y from x = 0.2 to x = 0.3",
+        "Using Euler's method, find y(2.2) for dy/dx = −xy² with y(2) = 1",
+        "Use Milne's method to solve dy/dx = x + y from x = 0.2 to x = 0.3",
         "Find dy/dx at x = 1.5 from given table of f(x)",
-        "Use Newton’s forward interpolation to estimate f(1.25) from given table",
-        "Use Newton’s forward interpolation to find polynomial through given points"
+        "Use Newton's forward interpolation to estimate f(1.25) from given table",
+        "Use Newton's forward interpolation to find polynomial through given points"
       ]
     },
     {
@@ -3563,8 +3563,8 @@ export const subjectResources: Record<string, SubjectResources> = {
           topics: [
             "Solution of polynomial and transcendental equations – Bisection method, Newton-Raphson method and Regula-Falsi method",
             "Finite differences, Relation between operators",
-            "Interpolation using Newton’s forward and backward difference formulae",
-            "Interpolation with unequal intervals: Newton’s divided difference and Lagrange’s formulae"
+            "Interpolation using Newton's forward and backward difference formulae",
+            "Interpolation with unequal intervals: Newton's divided difference and Lagrange's formulae"
           ]
         },
         {
@@ -3572,17 +3572,17 @@ export const subjectResources: Record<string, SubjectResources> = {
           title: "Numerical Methods – 2",
           topics: [
             "Numerical Differentiation",
-            "Numerical integration: Trapezoidal rule and Simpson’s 1/3rd and 3/8 rules",
-            "Solution of Simultaneous Linear Algebraic Equations by Gauss’s Elimination, Gauss’s Jordan, Crout’s methods, Jacobi’s, Gauss-Seidal, and Relaxation method"
+            "Numerical integration: Trapezoidal rule and Simpson's 1/3rd and 3/8 rules",
+            "Solution of Simultaneous Linear Algebraic Equations by Gauss's Elimination, Gauss's Jordan, Crout's methods, Jacobi's, Gauss-Seidal, and Relaxation method"
           ]
         },
         {
           unit: 3,
           title: "Numerical Methods – 3",
           topics: [
-            "Ordinary differential equations: Taylor’s series, Euler and modified Euler’s methods",
+            "Ordinary differential equations: Taylor's series, Euler and modified Euler's methods",
             "Runge-Kutta method of fourth order for solving first and second order equations",
-            "Milne’s and Adam’s predicator-corrector methods",
+            "Milne's and Adam's predicator-corrector methods",
             "Partial differential equations: Finite difference solution two dimensional Laplace equation and Poisson equation",
             "Implicit and explicit methods for one dimensional heat equation (Bender-Schmidt and Crank-Nicholson methods)",
             "Finite difference explicit method for wave equation"
@@ -3608,7 +3608,7 @@ export const subjectResources: Record<string, SubjectResources> = {
           topics: [
             "Probability Mass function",
             "Probability Density Function",
-            "Discrete Distribution: Binomial, Poisson’s",
+            "Discrete Distribution: Binomial, Poisson's",
             "Continuous Distribution: Normal Distribution, Exponential Distribution"
           ]
         }
@@ -3687,8 +3687,106 @@ export const subjectResources: Record<string, SubjectResources> = {
           ]
         },
         pyq: {
-          yearWise: [],
-          unitWise: []
+          yearWise: [
+            {
+              id: "coa-pyq-2024-12",
+              title: "COA PYQ Dec 24",
+              year: "Dec 24",
+              subjectCode: "IT 402",
+              subjectName: "Computer Organization and Architecture",
+              department: "Information Technology",
+              semester: 4,
+              fileType: "PDF",
+              pdfUrl:
+                "https://drive.google.com/file/d/1jpKqAs6_1e6lM3Em2sDqtf5hY1f1slE-/view?usp=drive_link",
+            },
+            {
+              id: "coa-pyq-2020-6",
+              title: "COA PYQ Jun 20",
+              year: "Jun 20",
+              subjectCode: "IT 402",
+              subjectName: "Computer Organization and Architecture",
+              department: "Information Technology",
+              semester: 4,
+              fileType: "PDF",
+              pdfUrl:
+                "https://drive.google.com/file/d/1qsCNkJxGFxDggXyJ70TM4Nr1LP7cGsaN/view?usp=drive_link",
+            },
+            {
+              id: "coa-pyq-2022-6",
+              title: "COA PYQ Jun 22",
+              year: "Jun 22",
+              subjectCode: "IT 402",
+              subjectName: "Computer Organization and Architecture",
+              department: "Information Technology",
+              semester: 4,
+              fileType: "PDF",
+              pdfUrl:
+                "https://drive.google.com/file/d/1OUZFnSMp2KzLfu6YSNrDLQ2UsBZu3H4g/view?usp=drive_link",
+            },
+          ],
+          unitWise: [
+            {
+              id: "coa-pyq-unit-1",
+              title: "COA Unit 1 PYQ - Eduno",
+              unit: 1,
+              subjectCode: "IT 402",
+              subjectName: "Computer Organization and Architecture",
+              department: "Information Technology",
+              semester: 4,
+              fileType: "PDF",
+              pdfUrl:
+                "https://drive.google.com/file/d/1KfpS-8sjXfJIFNEn8Gtvo_e92IAcI98C/view?usp=drive_link",
+            },
+            {
+              id: "coa-pyq-unit-2",
+              title: "COA Unit 2 PYQ - Eduno",
+              unit: 2,
+              subjectCode: "IT 402",
+              subjectName: "Computer Organization and Architecture",
+              department: "Information Technology",
+              semester: 4,
+              fileType: "PDF",
+              pdfUrl:
+                "https://drive.google.com/file/d/1weEShYRT5l2iAxRUqwIYEUeTp7CrO55V/view?usp=drive_link",
+            },
+            {
+              id: "coa-pyq-unit-3",
+              title: "COA Unit 3 PYQ - Eduno",
+              unit: 3,
+              subjectCode: "IT 402",
+              subjectName: "Computer Organization and Architecture",
+              department: "Information Technology",
+              semester: 4,
+              fileType: "PDF",
+              pdfUrl:
+                "https://drive.google.com/file/d/1SS_R6rFnnm3LxRErViQ_TSvteRf8cMLB/view?usp=drive_link",
+            },
+            {
+              id: "coa-pyq-unit-4",
+              title: "COA Unit 4 PYQ - Eduno",
+              unit: 4,
+              subjectCode: "IT 402",
+              subjectName: "Computer Organization and Architecture",
+              department: "Information Technology",
+              semester: 4,
+              fileType: "PDF",
+              pdfUrl:
+                "https://drive.google.com/file/d/1QEGfYpZ1b-1wIjB6VaxzqjBJjtIWEhkp/view?usp=drive_link",
+            },
+            {
+              id: "coa-pyq-unit-5",
+              title: "COA Unit 5 PYQ - Eduno",
+              unit: 5,
+              subjectCode: "IT 402",
+              subjectName: "Computer Organization and Architecture",
+              department: "Information Technology",
+              semester: 4,
+              fileType: "PDF",
+              pdfUrl:
+                "https://drive.google.com/file/d/10INimfdj3mUsFmpc_sf1-_sl6bb3V6aL/view?usp=drive_link",
+            },
+          ],
         },
         content: [
           {id: "coa-one-shot",
@@ -3740,7 +3838,7 @@ export const subjectResources: Record<string, SubjectResources> = {
             title: "Arithmetic and Logic Unit",
             topics: [
               "The arithmetic and logic unit",
-              "Fixed-Point representation: integer representation, sign-magnitude, 1’s and 2’s complement and range",
+              "Fixed-Point representation: integer representation, sign-magnitude, 1's and 2's complement and range",
               "Integer arithmetic: negation, addition and subtraction, multiplication, division",
               "Floating-Point representation",
               "Floating-Point arithmetic",
