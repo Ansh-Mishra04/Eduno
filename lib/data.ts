@@ -4020,108 +4020,109 @@ export const subjectResources: Record<string, SubjectResources> = {
         },
       ],
     },
-    pyq: {
-      yearWise: [
-        {
-          id: "m2-pyq-2024-1",
-          title: "M2 PYQ June 24",
-          year: "June 24",
-          subjectCode: "BT 202",
-          subjectName: "Mathematics-II",
-          department: "Basic Science",
-          semester: 2,
-          fileType: "PDF",
-          pdfUrl:
-            "https://drive.google.com/file/d/13ko8Lq0s3btbKAV2-hQMtI0taxu_1rNj/view?usp=drive_link",
-        },
-        {
-          id: "m2-pyq-2023-2",
-          title: "M2 PYQ Dec 23",
-          year: "Dec 23",
-          subjectCode: "BT 202",
-          subjectName: "Mathematics-II",
-          department: "Basic Science",
-          semester: 2,
-          fileType: "PDF",
-          pdfUrl:
-            "https://drive.google.com/file/d/1z48pU3OMlJjTxd6jSQETQ22dWLELaVod/view?usp=drive_link",
-        },
-        {
-          id: "m2-pyq-2023-1",
-          title: "M2 PYQ June 23",
-          year: "June 23",
-          subjectCode: "BT 202",
-          subjectName: "Mathematics-II",
-          department: "Basic Science",
-          semester: 2,
-          fileType: "PDF",
-          pdfUrl:
-            "https://drive.google.com/file/d/1e3fiJ-QOFfzkbim_8KC5F_JIwtfq0q5A/view?usp=drive_link",
-        },
-      ],
-      unitWise: [
-        {
-          id: "m2-pyq-unit-1",
-          title: "M2 Unit 1 PYQ - Eduno",
-          unit: 1,
-          subjectCode: "BT 202",
-          subjectName: "Mathematics-II",
-          department: "Basic Science",
-          semester: 2,
-          fileType: "PDF",
-          pdfUrl:
-            "https://drive.google.com/file/d/1D9Fw8iIiVIT05dIyDRkW4Eo-w7y3RJTW/view?usp=drive_link",
-        },
-        {
-          id: "m2-pyq-unit-2",
-          title: "M2 Unit 2 PYQ - Eduno",
-          unit: 2,
-          subjectCode: "BT 202",
-          subjectName: "Mathematics-II",
-          department: "Basic Science",
-          semester: 2,
-          fileType: "PDF",
-          pdfUrl:
-            "https://drive.google.com/file/d/1pXALjwKtThuWOwY9J0vQT61dAfMkeeWb/view?usp=drive_link",
-        },
-        {
-          id: "m2-pyq-unit-3",
-          title: "M2 Unit 3 PYQ - Eduno",
-          unit: 3,
-          subjectCode: "BT 202",
-          subjectName: "Mathematics-II",
-          department: "Basic Science",
-          semester: 2,
-          fileType: "PDF",
-          pdfUrl:
-            "https://drive.google.com/file/d/1v-PfJlOwEpzHwDKqjgF6-spjuZ7YVAvN/view?usp=drive_link",
-        },
-        {
-          id: "m2-pyq-unit-4",
-          title: "M2 Unit 4 PYQ - Eduno",
-          unit: 4,
-          subjectCode: "BT 202",
-          subjectName: "Mathematics-II",
-          department: "Basic Science",
-          semester: 2,
-          fileType: "PDF",
-          pdfUrl:
-            "https://drive.google.com/file/d/1tsDsijB-XMYAiyxOv8WY1dyja9vjNtw7/view?usp=drive_link",
-        },
-        {
-          id: "m2-pyq-unit-5",
-          title: "M2 Unit 5 PYQ - Eduno",
-          unit: 5,
-          subjectCode: "BT 202",
-          subjectName: "Mathematics-II",
-          department: "Basic Science",
-          semester: 2,
-          fileType: "PDF",
-          pdfUrl:
-            "https://drive.google.com/file/d/13ks7bap9_YEENPd71lLknNyEX67ARnoa/view?usp=drive_link",
-        },
-      ],
+   pyq: {
+  yearWise: [
+    {
+      id: "adc-pyq-2023-11",
+      title: "ADC PYQ Nov 23",
+      year: "Nov 23",
+      subjectCode: "IT-404",
+      subjectName: "Analog and Digital Communication",
+      department: "Information Technology",
+      semester: 4,
+      fileType: "PDF",
+      pdfUrl:
+        "https://drive.google.com/file/d/1Uaw1rbVpyTBCPzI_In58jTzTE7yos25R/view?usp=drive_link",
     },
+    {
+      id: "adc-pyq-2023-6",
+      title: "ADC PYQ Jun 23",
+      year: "Jun 23",
+      subjectCode: "IT-404",
+      subjectName: "Analog and Digital Communication",
+      department: "Information Technology",
+      semester: 4,
+      fileType: "PDF",
+      pdfUrl:
+        "https://drive.google.com/file/d/148CnEfWj4FkzyVNmfOUXY6f8vAuizJDw/view?usp=drive_link",
+    },
+    {
+      id: "adc-pyq-2024-12",
+      title: "ADC PYQ Dec 24",
+      year: "Dec 24",
+      subjectCode: "IT-404",
+      subjectName: "Analog and Digital Communication",
+      department: "Information Technology",
+      semester: 4,
+      fileType: "PDF",
+      pdfUrl:
+        "https://drive.google.com/file/d/1GY0Nag-t68bhDfBZt2Sggh87RuqE5T4x/view?usp=drive_link",
+    },
+  ],
+  unitWise: [
+    {
+      id: "adc-pyq-unit-1",
+      title: "ADC Unit 1 PYQ - Eduno",
+      unit: 1,
+      subjectCode: "IT-404",
+      subjectName: "Analog and Digital Communication",
+      department: "Information Technology",
+      semester: 4,
+      fileType: "PDF",
+      pdfUrl:
+        "https://drive.google.com/file/d/1GSY2YpjuW5mqEq7GQKmXsNdJq4eg-d2s/view?usp=drive_link",
+    },
+    {
+      id: "adc-pyq-unit-2",
+      title: "ADC Unit 2 PYQ - Eduno",
+      unit: 2,
+      subjectCode: "IT-404",
+      subjectName: "Analog and Digital Communication",
+      department: "Information Technology",
+      semester: 4,
+      fileType: "PDF",
+      pdfUrl:
+        "https://drive.google.com/file/d/1yLCFvK2QG7b0xD04u5GV6qaCgobbiP5y/view?usp=drive_link",
+    },
+    {
+      id: "adc-pyq-unit-3",
+      title: "ADC Unit 3 PYQ - Eduno",
+      unit: 3,
+      subjectCode: "IT-404",
+      subjectName: "Analog and Digital Communication",
+      department: "Information Technology",
+      semester: 4,
+      fileType: "PDF",
+      pdfUrl:
+        "https://drive.google.com/file/d/17trpqI9VwRnqcTRY2MjqjIonOJ-c2Xim/view?usp=drive_link",
+    },
+    {
+      id: "adc-pyq-unit-4",
+      title: "ADC Unit 4 PYQ - Eduno",
+      unit: 4,
+      subjectCode: "IT-404",
+      subjectName: "Analog and Digital Communication",
+      department: "Information Technology",
+      semester: 4,
+      fileType: "PDF",
+      pdfUrl:
+        "https://drive.google.com/file/d/1zAWff61VEAmhjqu0DwMfFpGSKzgkLFIl/view?usp=drive_link",
+    },
+    {
+      id: "adc-pyq-unit-5",
+      title: "ADC Unit 5 PYQ - Eduno",
+      unit: 5,
+      subjectCode: "IT-404",
+      subjectName: "Analog and Digital Communication",
+      department: "Information Technology",
+      semester: 4,
+      fileType: "PDF",
+      pdfUrl:
+        "https://drive.google.com/file/d/1HK-Irv8HuFbM5iGFyKzFB5AioOIwKVdB/view?usp=drive_link",
+    },
+  ],
+},
+
     content: [
       {
         id: "adc-content-1",
