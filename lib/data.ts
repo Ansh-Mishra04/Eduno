@@ -4153,91 +4153,108 @@ export const subjectResources: Record<string, SubjectResources> = {
           "https://youtube.com/playlist?list=PLgwJf8NK-2e5R8EVN7tqosjkHttF727iJ&si=AjnGEu3zYanbbnvH",
       },
     ],
-    important: [
-      // {
-      //   unit: 0,
-      //   title: "IMP of ADC",
-      //   topics: [
-      //     "Exact Method",
-      //     "Bessel Functions",
-      //     "Variation of Parameters",
-      //     "Linear PDEs",
-      //     "Line Integral",
-      //     "Gauss Divergence Theorem",
-      //     "Green's Theorem",
-      //   ],
-      //   questions: ["Just Do All PYQs"],
-      // },
-      // {
-      //   unit: 1,
-      //   title: "Ordinary Differential Equations I",
-      //   topics: [
-      //     "Leibnitz Linear & Exact Method (Ordinary Differential Equations of First Order and First Degree)",
-      //     "Ordinary Differential Equations of First Order and Higher Degree",
-      //     "Higher Order Differential Equations with Constant Coefficients",
-      //   ],
-      //   questions: [
-      //     "(x e^(xy) + 2y) dy/dx + y e^(xy) = 0 → Exact Method",
-      //     "Solve (1 + y²)dx = (tan⁻¹y - x)dy using Leibnitz linear method",
-      //     "Solve: dy/dx = cos(x + y) + sin(x + y)",
-      //     "Solve: (e^y + 1)cosx dx + e^y sinx dy = 0",
-      //     " Solve: d²y/dx² + dy/dx = (1 + e^x)⁻¹",
-      //   ],
-      // },
-      // {
-      //   unit: 2,
-      //   title: "Ordinary Differential Equations II",
-      //   topics: [
-      //     "Bessel Functions of the First Kind and Their Properties",
-      //     "Variation of Parameters",
-      //   ],
-      //   questions: [
-      //     "J1/2(x)=2xsinx (Bessel Function)",
-      //     "(D^2+9)y=tan3x (Variation of Parameters)",
-      //   ],
-      // },
-      // {
-      //   unit: 3,
-      //   title: "Partial Differential Equations",
-      //   topics: [
-      //     "Linear PDEs",
-      //     "Homogeneous Linear PDEs (Constant Coefficients)",
-      //     "Charpit's Method",
-      //   ],
-      //   questions: [
-      //     "(x−y)p+(x+y)q=2xz (Linear PDE)",
-      //     "D^2−DD′−6D′^2)Z=xy (Linear PDE)",
-      //     "(D^2 +4DD′−5D′^2)Z=sin(2x+3y) (Homogeneous Linear PDE)",
-      //     "(p^2+q^2)y=qz (charpit's Method)",
-      //   ],
-      // },
-      // {
-      //   unit: 4,
-      //   title: "Functions of Complex Variables",
-      //   topics: [
-      //     "Harmonic functions",
-      //     "Analytic functions",
-      //     "Line Integral",
-      //     "Singularity & Residues",
-      //   ],
-      //   questions: ["Check PYQs for Questions (Can't show up equations here)"],
-      // },
-      // {
-      //   unit: 5,
-      //   title: "Vector Calculus",
-      //   topics: [
-      //     "Green's Theorem",
-      //     "Directional Derivative",
-      //     "Curl & Laplacian Operator",
-      //     "Gauss Divergence Theorem",
-      //   ],
-      //   questions: [
-      //     "Check PYQs for Questions (Can't show up equations here)",
-      //     "Verify Green's theorem in the plane forC(x^2-xy^3)dx+(y^2-2xy)dy where C is a square with vertices (0, 0), (2, 0), (2, 2), (0, 2)",
-      //     "Find the directional derivative of f(x,y,z)=e2x cos yz at (0, 0, 0) in the direction of the tangent to the curve x=asint, y = acost, z = at at t =4",
-      //   ],
-      // },
+    "important": [
+  {
+    "unit": 1,
+    "title": "Signals, Systems, and Fourier Analysis",
+    "topics": [
+      "Classification of Signals (continuous, discrete, analog, digital, periodic, non-periodic, etc.)",
+      "Standard Signals: Impulse, Step, Ramp, Rectangular, Triangular, Signum",
+      "Block diagram of communication system",
+      "Fourier Transform of basic functions (delta, gate, unit step, sine, etc.)",
+      "Convolution Theorems",
+      "System properties: linearity, time-invariance, causality, stability"
     ],
+    "questions": [
+      "Write function of unit impulse δ(t); evaluate ∫δ(t)sin(2πt)dt",
+      "Explain rectangular, triangular, signum pulses with diagrams and equations",
+      "Classify signals and explain each with expressions and waveforms",
+      "Draw and explain communication system block diagram; define signal and its types",
+      "Calculate and plot frequency response of h(t) = e⁻²ᵗu(t)",
+      "Fourier Transform of gate, unit step, delta function"
+    ]
+  },
+  {
+    "unit": 2,
+    "title": "Amplitude Modulation (AM)",
+    "topics": [
+      "Modulation Index (linear and over modulation)",
+      "Power efficiency and bandwidth in AM",
+      "DSB-FC, DSB-SC, SSB-SC, VSB-SC (comparisons and characteristics)",
+      "AM Modulators: Square law, Switching modulator",
+      "AM Demodulators: Envelope detector, Square law detector",
+      "Sampling Theorem and its proof"
+    ],
+    "questions": [
+      "Explain modulation index of AM wave. Calculate it if carrier varies from 4V to 1V",
+      "Discuss power relation and transmission efficiency of AM",
+      "Derive modulation index and explain effect on frequency spectrum",
+      "Prove and explain Sampling Theorem",
+      "Explain concept of DSB-SC modulation; compare with conventional AM",
+      "Fourier Transform of amplitude modulated signal"
+    ]
+  },
+  {
+    "unit": 3,
+    "title": "Angle Modulation and FM Receivers",
+    "topics": [
+      "FM and PM: definitions, differences, expressions",
+      "Modulation Index, Frequency Deviation, Deviation Ratio",
+      "FM Generation (Direct vs Indirect methods)",
+      "FM Demodulators: Foster-Seeley, Balanced Slope Detector, Ratio Detector",
+      "TRF and Superheterodyne Receivers",
+      "Receiver characteristics: Sensitivity, Selectivity, Fidelity"
+    ],
+    "questions": [
+      "Explain FM and PM with expressions and waveform diagrams",
+      "Describe Foster-Seeley discriminator with schematic and phase diagram",
+      "Explain Balanced Slope Detector with diagram and characteristic",
+      "Draw and explain Superheterodyne receiver; define sensitivity/selectivity",
+      "Discuss direct vs indirect FM generation",
+      "Explain deviation ratio; calculate for Δf = 10 kHz, f_m = 5 kHz"
+    ]
+  },
+  {
+    "unit": 4,
+    "title": "Pulse Modulation and PCM",
+    "topics": [
+      "PAM, PWM, PPM (waveforms and characteristics)",
+      "Time Division Multiplexing (TDM) and applications",
+      "Pulse Code Modulation (PCM): quantization, error, SNR",
+      "Adaptive Delta Modulation (ADM) vs Delta Modulation",
+      "Sampling: low-pass and band-pass, aperture effect"
+    ],
+    "questions": [
+      "Explain various pulse modulation techniques: PAM, PWM, PPM",
+      "Differentiate sampling for low-pass and band-pass signals",
+      "Explain TDM with block diagram and applications",
+      "Draw block diagram and waveform of ADM; explain advantage over DM",
+      "PCM with step size 0.1V and max amplitude 2V: find quantization error and SNR",
+      "Determine min sampling rate, bits, resolution, and quantization error in PCM system with given specs"
+    ]
+  },
+  {
+    "unit": 5,
+    "title": "Digital Modulation Techniques",
+    "topics": [
+      "Binary Modulation Schemes: ASK, PSK, FSK",
+      "BPSK, DBPSK, QPSK (offset vs non-offset)",
+      "Quadrature Amplitude Modulation (QAM)",
+      "Constellation Diagram and Bit Mapping",
+      "Bandwidth requirements and signal recovery"
+    ],
+    "questions": [
+      "Explain BPSK modulation; derive expression and explain receiver",
+      "Why is DBPSK more reliable? Explain decoding process",
+      "Explain QPSK and offset QPSK with probability of error",
+      "Describe QAM and its waveform/block diagram; explain constellation size",
+      "For 16-QAM with 10 Mbps, calculate Baud rate and Nyquist frequency",
+      "Compare ASK, FSK, and PSK: bandwidth and generation/recovery",
+      "Short notes on: Time/Frequency Convolution, Selectivity, TDM, QAM"
+    ]
+  }
+],
+
    syllabus : [
   {
     unit: 1,
